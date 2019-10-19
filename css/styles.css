@@ -1,0 +1,13 @@
+h1 {
+    text-align: center;
+    padding-top: 5%;
+}
+#content {
+    padding: 5% 10%;
+}
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+    background: #ADDFB3;
+}
+/* th, td {
+    padding: 0 5%;
+} */
