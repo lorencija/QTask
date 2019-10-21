@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>QTask</title>
+</head>
+
+<body>
+
+    <div class="row backbtn">
+        <a href="index.html" class="buttons">Back To List</a>
+    </div>
+    <h1>Add New Post</h1>
+    <div class="container">
+
+        <form onsubmit="return validateForm()">
+            <div class="form-group">
+                <label for="exampleFormControlInput1">ID</label>
+                <input type="text" class="form-control" id="inputID" value="0" disabled>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlInput1">User ID</label>
+                <input type="text" class="form-control" id="inputUserID">
+                <div class="errors" id="erruserId"></div>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Title</label>
+                <textarea class="form-control" id="inputTitle" rows="1"></textarea>
+                <div class="errors" id="errTitle"></div>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Post body</label>
+                <textarea class="form-control" id="inputBody" rows="3"></textarea>
+                <div class="errors" id="errBody"></div>
+            </div>
+            <input type="submit" value="Save" class="buttonSave">
+        </form>
+    </div>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/urlCode.js"></script>
+    <script src="js/newCode.js"></script>
+</body>
+
+</html>
