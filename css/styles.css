@@ -6,20 +6,25 @@
     padding: 0% 10%;
 }
 .table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
-    background: #ADDFB3;
+    background: #D1E0D7;
 }
 .infoLine {
     padding: 2% 5%;
     margin: 0 3%;
     text-align: center;
+    color: #024638;
 }
 .infoElement {
     padding: 2% 5% 0;
     text-align: left;
+    font-size: 1.2em;
 }
 .postCont{
     border-style: solid;
     border-width: 2px;
+  }
+.postTitle{
+font-weight: bold;
   }
 .buttons {
     border-style: solid;
@@ -36,10 +41,16 @@
     text-decoration: none;
     padding: 5px 15px;
     font-size: 1.2em;
+    color: #024638;
+    font-weight: bold;
+}
+.backbtn a:hover{
+   background-color: #D1E0D7;
 }
 h1 {
     text-align: center;
     padding: 1% 0;
+    color: #024638;
 }
 .container form {
     padding: 0 15%;
@@ -48,13 +59,30 @@ h1 {
     margin: 1% 0 5%;
     padding: 5px 60px;
     background-color: white;
-    color: black;
+    color: #024638;
+    font-weight: bold;
     font-size: 1.2em;
     border-style: solid;
+    border-color: #024638;
+    border-radius: 10px;
 }
+.buttonSave:focus {
+    outline: 0;
+}
+.buttonSave:hover{
+    background-color: #ADCAB8;
+ }
 .errors{
     color:red;
 }
 .btnrow{
     margin: 3% 0;
+}
+.form-group{
+    color:#024638;
+    font-weight: bold;
+}
+.form-control:focus {
+    border-color: #024638;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(2, 70, 56, 0.6);
 }

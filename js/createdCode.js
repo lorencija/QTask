@@ -6,7 +6,7 @@ $(document).ready(function () {
 
     $('#newPost').append('<div class="row infoLine"><div class="col-lg-6 col-md-6 col-sm-12 infoElement">User ID - '
         + obj.userId + '</div><div class="col-lg-6 col-md-6 col-sm-12 infoElement">ID - '
-        + obj.id + '</div></div><div class="row infoLine"><div class="col-lg-12 col-md-12 col-sm-12">'
+        + obj.id + '</div></div><div class="row infoLine postTitle"><div class="col-lg-12 col-md-12 col-sm-12">'
         + obj.title + '</div></div><div class="row infoLine postCont"><div class="col-lg-12 col-md-12 col-sm-12">'
         + obj.body + '</div></div>');
 
